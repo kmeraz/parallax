@@ -1,7 +1,11 @@
 ## Welcome!
 This coding prompt was developed using NextJS - the React framework for the web
 
-## Preview
+
+<img width="450" alt="image" src="https://github.com/kmeraz/parallax/assets/16483341/ba74a9ea-05a3-49cc-baee-987346ab0576">
+<img width="550" alt="image" src="https://github.com/kmeraz/parallax/assets/16483341/4181452d-4d8c-4ae2-9953-14f8a6eaa939">
+
+
 ## Getting Started
 
 1) Make sure Node is installed:
