@@ -1,5 +1,5 @@
 ## Welcome!
-This coding prompt was developed using NextJS - the React framework for the web
+This PoC was developed using NextJS - the React framework for the web!
 
 
 <img width="450" alt="image" src="https://github.com/kmeraz/parallax/assets/16483341/ba74a9ea-05a3-49cc-baee-987346ab0576">
@@ -19,7 +19,8 @@ This coding prompt was developed using NextJS - the React framework for the web
     - Note: NPM should have been installed along with the Node installation
         - It should be available as a global package in your local terminal
             - ```npm -v``` -> `10.3.0`
-5) Finally, run the local NextJS server
+5) Provide your own API key in `/src/app/api/index.ts`
+6) Finally, run the local NextJS server
     - ```npm run dev```
     - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

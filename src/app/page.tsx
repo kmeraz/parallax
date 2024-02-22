@@ -1,11 +1,11 @@
 "use client";
+import { Fragment, useEffect } from "react";
 
 import { useRouter } from "next/navigation";
 
 import { useCurrentUser } from "@/app/userContext";
-import { useEffect, ReactNode } from "react";
 
-const App = ({ children }: { children: ReactNode }) => {
+const App = ({ children }: { children: any }) => {
   const router = useRouter();
   const { state: currentUser } = useCurrentUser();
 
@@ -13,9 +13,9 @@ const App = ({ children }: { children: ReactNode }) => {
     currentUser?.id
       ? router.push("/home/exchange")
       : router.push("/login");
-  }, [currentUser.id])
+  }, [currentUser.id, router])
   
-  return children;
+  return <Fragment>{children}</Fragment>;
 };
 
 export default App;

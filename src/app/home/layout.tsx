@@ -41,7 +41,7 @@ const Homelayout = ({ children }: { children: ReactNode}) => {
     if (!currentUser.id) {
       return router.push("/login");
     }
-  }, [currentUser.id])
+  }, [currentUser.id, router])
 
   return (
     <div className="min-h-full">
