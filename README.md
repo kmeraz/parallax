@@ -1,5 +1,5 @@
 ## Welcome!
-This PoC was developed using NextJS - the React framework for the web!
+This PoC was developed using NextJS - the React framework for the web! Its purpose is to allow users to exchange USD for PHP using a backend architecture that leverages Ethereum.
 
 
 <img width="450" alt="image" src="https://github.com/kmeraz/parallax/assets/16483341/ba74a9ea-05a3-49cc-baee-987346ab0576">
